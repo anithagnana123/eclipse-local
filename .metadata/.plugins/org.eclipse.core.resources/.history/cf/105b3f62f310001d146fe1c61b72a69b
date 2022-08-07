@@ -1,0 +1,25 @@
+package simplilearn.examples;
+
+public class Casting {
+
+	public static void main(String[] args) {
+		
+	//int to long	
+    int i1 =56;
+    lo
+		
+    //long to int 
+    
+    
+    //double to int
+    
+    
+    //int to byte
+    
+    
+    //long to float
+    
+
+	}
+
+}

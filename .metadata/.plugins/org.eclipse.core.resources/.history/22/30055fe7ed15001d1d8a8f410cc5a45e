@@ -1,0 +1,34 @@
+package simplilearn.examples;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class SwitchWithInts {
+
+	public static void main(String[] args) {
+		String input = getInput("Enter a number between 1 and 12");
+		int i = Integer.parseInt(input);
+		
+		System.out.println(i);
+	}
+
+	private static String getInput(String string) {
+        BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println(string);
+		System.out.flush();
+		
+		try {
+			return stdin.readLine();
+		}
+		catch(Exception e){
+			return "Error:" + e.getMessage();
+		}
+		
+	}
+
+	}
+	
+	
+
+}

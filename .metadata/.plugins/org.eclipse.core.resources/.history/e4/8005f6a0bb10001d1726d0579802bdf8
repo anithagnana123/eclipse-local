@@ -1,0 +1,28 @@
+
+public class Account {
+
+	private double balance;
+	
+	//Constructor
+	public Account(double initialbalance){
+		
+		if ( initialbalance > 10) {
+		balance = initialbalance;
+		}
+		else {
+			System.err.println("Account balance should be greater than 10");
+		}
+	}
+	
+	//Getter method
+    public double getbalance(){
+		return balance;
+	}
+    
+    public double deposit(int amt) { 	
+    	balance = balance + amt;
+    	return balance;
+    	
+    }
+}
+

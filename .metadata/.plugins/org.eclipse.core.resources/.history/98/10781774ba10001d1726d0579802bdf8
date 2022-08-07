@@ -1,0 +1,19 @@
+
+public class TestAccount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        // Declaration
+		Account acct;
+		
+		//Initialization
+		acct = new Account(1223);
+		
+		System.out.println(acct.getbalance());
+		
+	   
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Account {
+
+	private double balance;
+	
+	public Account(double initialbalance){
+		
+		if ( initialbalance > 10) {
+		balance = initialbalance;
+		}
+	}
+    public double getbalance(){
+		return balance;
+	}
+}
+

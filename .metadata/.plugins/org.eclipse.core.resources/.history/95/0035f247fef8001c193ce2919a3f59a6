@@ -1,0 +1,39 @@
+
+public class Student {
+
+	int register;
+	String sname;
+	
+	
+	public Student(int reg,String name) {
+		this.register = reg;
+		this.sname = name;
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student ar[];
+		
+		ar = new Student[4];
+		
+		ar[0] = new Student(1111,"Manish");
+		ar[1] = new Student(1111,"Janish");
+		ar[2] = new Student(1111,"Hanish");
+		ar[3] = new Student(1111,"Ranish");
+		
+	
+		for(int i=0;i<ar.length;i++) {
+			System.out.println(ar[i]);
+		}
+		
+		for(int i=0;i<ar.length;i++) {
+			System.out.println(ar[i].register + ar[i].sname);
+		}
+		
+		double mydouble = 1.1;
+        int num = (int) mydouble;
+        System.out.println(num + mydouble);
+	}
+
+}
