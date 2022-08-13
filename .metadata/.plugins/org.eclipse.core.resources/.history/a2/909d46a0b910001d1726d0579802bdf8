@@ -1,9 +1,0 @@
-
-public class Account {
-
-	private double balance;
-	
-	Account(double initial balance){
-		balance = initial balance;
-	}
-}

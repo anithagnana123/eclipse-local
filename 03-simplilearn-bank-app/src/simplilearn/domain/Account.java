@@ -2,7 +2,7 @@ package simplilearn.domain;
 
 public class Account {
 
-	private double balance;
+	protected double balance;
 	
 	//Constructor
 	public Account(double initialbalance){
@@ -20,14 +20,18 @@ public class Account {
 		return balance;
 	}
     
-    public void deposit(double amt) { 	
+    public boolean deposit(double amt) { 	
     	balance = balance + amt;
+    	return true;
     }
     
-    public void withdraw(double amt){
+    public boolean withdraw(double amt){
+    	boolean result = false; //assume operation failure
     	if (balance >= amt) {
     		balance = balance-amt;
+    		result  = true; // operation succeeded
     	}
+    	return result;
       }
 }
 
