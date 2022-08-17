@@ -22,6 +22,7 @@ public class Customer {
 		return account;
 	}
 	
+	//polymorphic argument
 	public void setAccount(Account acct) {
 		account = acct;
 	}
