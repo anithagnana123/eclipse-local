@@ -58,6 +58,18 @@ public class Queue {
 			}
 			
 		}
+	 public int peek() {
+		 if(!isEmpty()) {
+			 int result = arr[beginningOfQueue];
+			 return result;
+		 } else {
+			 System.out.println("the Queue is empty");
+			 return -1; 
+		 }
+		
+	 }
+	
+	
 	}
 	
-}
+

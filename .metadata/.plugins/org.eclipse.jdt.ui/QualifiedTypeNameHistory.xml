@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="simplilearn.domain.Bank"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="simplilearn.domain.Account"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="simplilearn.domain.SavingsAccount"/>
     <fullyQualifiedTypeName name="simplilearn.domain.CheckingAccount"/>
     <fullyQualifiedTypeName name="domain.Fish"/>
@@ -28,4 +27,5 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.io.FileFilter"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

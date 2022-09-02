@@ -20,6 +20,7 @@ public class TestFile {
 		Scanner s = new Scanner(System.in);
 		int i = s.nextInt();
 		
+	 
 		switch ( i ) {
 		   case 1:
 			   FirstOption opt1 = new FirstOption();
@@ -30,7 +31,12 @@ public class TestFile {
 			   break;
 		   case 3:
 			   break;
-		}			
+		   default:
+			   System.out.println("Invalid selection");
+			   break;
+		}		
+		
+		
 		
 	}
 	
@@ -70,7 +76,9 @@ public class TestFile {
 		   // Return to the Main menu
 		   mainMenu();
 		   break;
-		
+		default:
+			System.out.println("Invalid selection");
+			break;
 		}
 		      
 	}

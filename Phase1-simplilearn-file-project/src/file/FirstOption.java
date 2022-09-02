@@ -30,6 +30,7 @@ public class FirstOption {
 		
 		File [] contents = dirPath.listFiles(fileFilter);
 	
+		if (contents.length != 0 ) {
 		//Sort the files in ascending order
 		Arrays.sort(contents);
 		
@@ -38,11 +39,15 @@ public class FirstOption {
 	        {
 	            System.out.println(file.getName());
 	        }
+		}else {
+        	System.out.println("Directory does not have any files");
+        }
+        
         } catch(Exception e) {
         	System.out.println("Directory not found");
         }
-	   }
-		
-	}		
+      } 
+	}
+			
 		
 

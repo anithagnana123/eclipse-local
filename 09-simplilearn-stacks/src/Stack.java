@@ -27,8 +27,8 @@ public class Stack {
 		}
 	}
 	
-	private boolean isFull() {
-		if(topstack == arr.length - 1) {
+	private boolean isEmpty() {
+		if(topstack == - 1) {
 			return true;
 		} else {
 			return false;
@@ -41,8 +41,8 @@ public class Stack {
 		System.out.println("the stack is created with size of: "+size);
 	}
 	
-	public boolean isEmpty() {
-		if(topstack == arr.length -1) {
+	public boolean isFull() {
+		if(topstack == arr.length - 1) {
 			return true;
 		} else {
 			return false;
