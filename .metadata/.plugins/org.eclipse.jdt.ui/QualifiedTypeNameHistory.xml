@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="simplilearn.domain.Customer"/>
     <fullyQualifiedTypeName name="simplilearn.domain.Bank"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="simplilearn.domain.Account"/>
     <fullyQualifiedTypeName name="simplilearn.domain.SavingsAccount"/>
     <fullyQualifiedTypeName name="simplilearn.domain.CheckingAccount"/>
@@ -11,7 +10,6 @@
     <fullyQualifiedTypeName name="domain.Animal"/>
     <fullyQualifiedTypeName name="domain.Spider"/>
     <fullyQualifiedTypeName name="domain.Pet"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
@@ -25,7 +23,10 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.FileFilter"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="bankApp.Account"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 </qualifiedTypeNameHistroy>
